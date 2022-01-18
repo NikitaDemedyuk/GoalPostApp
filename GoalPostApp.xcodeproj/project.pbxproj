@@ -39,6 +39,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1138D6EB2797221100728D94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1138D6EC2797224F00728D94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1138D6ED2797225700728D94 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		1138D6EE2797225D00728D94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		1143E4AF2795E20B00AF8708 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +86,10 @@
 		1143E4BA2795E20B00AF8708 /* GoalPostApp */ = {
 			isa = PBXGroup;
 			children = (
+				1138D6EE2797225D00728D94 /* Extensions */,
+				1138D6ED2797225700728D94 /* Enums */,
+				1138D6EC2797224F00728D94 /* View */,
+				1138D6EB2797221100728D94 /* Controller */,
 				1143E4BB2795E20B00AF8708 /* AppDelegate.swift */,
 				1143E4BD2795E20B00AF8708 /* SceneDelegate.swift */,
 				1143E4BF2795E20B00AF8708 /* ViewController.swift */,
