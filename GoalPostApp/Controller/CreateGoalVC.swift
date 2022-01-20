@@ -16,7 +16,9 @@ class CreateGoalVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
+    
     
     @IBAction func shortTermBtnWasPressed(_ sender: Any) {
     }
