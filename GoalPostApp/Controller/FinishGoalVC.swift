@@ -7,23 +7,31 @@
 
 import UIKit
 
-class FinishGoalVC: UIViewController {
+class FinishGoalVC: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var createGoalBtn: UIButton!
+    
+    @IBOutlet weak var pointsTextField: UITextField!
+    
+    var goalDescription: String!
+    var goalType: GoalType!
+    
+    func initData(description: String, type: GoalType) {
+        self.goalDescription = description
+        self.goalType = type
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        createGoalBtn.bindToKeyBoard()
+        pointsTextField.delegate = self
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func createBtnWasPressed(_ sender: Any) {
+        // Pass data into Core Data Goal Model
+        
     }
-    */
-
+    
 }
