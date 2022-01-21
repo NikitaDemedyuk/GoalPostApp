@@ -95,17 +95,20 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mDK-Is-Khe">
                                                     <rect key="frame" x="30" y="11" width="326" height="48"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="fJb-2d-Na2">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="fJb-2d-Na2">
                                                             <rect key="frame" x="0.0" y="0.0" width="326" height="25"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zh-47-jWa">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="139.5" height="25"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="25"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="50" id="1pz-o5-54b"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="JdD-qS-MSf">
-                                                                    <rect key="frame" x="154.5" y="0.0" width="171.5" height="25"/>
+                                                                    <rect key="frame" x="65" y="0.0" width="261" height="25"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
