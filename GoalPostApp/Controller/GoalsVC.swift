@@ -7,6 +7,8 @@
 
 import UIKit
 
+let appDelegate = UIApplication.shared.delegate as? AppDelegate
+
 class GoalsVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
@@ -42,4 +44,7 @@ extension GoalsVC: UITableViewDelegate, UITableViewDataSource {
         cell.configureCell(description: "Eat salad twice a week", type: .shortTerm, goalProgressAmount: 2)
         return cell
     }
+    
+    
+    
 }
